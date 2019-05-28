@@ -1,0 +1,28 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+   <bean id="helloWorld" class="sincronoGroup.myspringhelloworld.HelloWorld">
+       <property name="message" value="Hello World!"/>
+   </bean>
+ 
+ 
+	 <bean id="Cane"  class="sincronoGroup.myspringhelloworld.Cane">
+	 	<property name="verso"  value="Wooof!"/>
+	 	<property name="rincorre" value="il gatto"/>
+	 	<property name="vedere"  value="un gatto"/>
+	 </bean>
+	 
+	 <bean id="Gatto" class="sincronoGroup.myspringhelloworld.Gatto">
+	 	<property name="risposta"  value="miaoo!"/>
+	 	<property name="scappa" value="su di un albero!"/>
+	 </bean>
+	 
+	 
+ 
+ 
+</beans>
+
+	
